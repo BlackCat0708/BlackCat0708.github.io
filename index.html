@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/myclass.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <title>✦BlackCat Portfolio✦</title>
+</head>
+
+<body>
+  <!-- 回到頂部按鈕 -->
+  <a href="#" class="go-to-top">⏶</a>
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="#">✦BlackCat✦</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#ability">ABILITY</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 封面 -->
+  <section id="cover">
+    <div class="cover"></div>
+    <div class="cover-title">
+      <h1>BlackCat</h1>
+      <h4>- Web Developer & Illustrator -</h4>
+    </div>
+  </section>
+
+  <!-- 關於 -->
+  <section id="about">
+    <div class="container part">
+      <h2 class="text-center title">
+        <span>- ABOUT ME -</span>
+      </h2>
+      <div class="row">
+        <div class="col-12 col-lg-5 mb-5 mb-lg-0 photo">
+          <img src="./image/photo.jpg">
+        </div>
+        <div class="col-12 col-lg-7 ps-lg-0">
+          <h3>蔡昀容 BlackCat</h3>
+          <p>我畢業於國立台北教育大學藝術與造形設計學系藝術組，擅長描繪色彩繽紛的事物，也喜歡嘗試各式各樣的設計風格，曾使用 Weebly 平台建置個人網頁，於是對網頁設計產生興趣。</p>
+          <p>在工作期間思考未來職涯的規劃，決定往轉職前端工程師的方向努力。參與半年的專業訓練，學會了 HTML、CSS、JavaScript、jQuery 及 Vue.js 等前端開發技術，能使用 Node.js 與
+            MongoDB 建置資料庫，運用 git 版本控制佈署至 heroku，完成前後端網頁功能整合。 </p>
+          <p>在訓練期間，也嘗試將自己畫畫的興趣與網頁設計結合，打造特別的視覺感受，並運用之前親身接插畫委託的經驗，製作出「夢百貨」的插畫委託網站，改善委託流程的資料需要另外透過電子信箱或網路硬碟傳送的不便。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 能力 -->
+  <section id="ability">
+    <div class="container part">
+      <h2 class="text-center title">
+        <span>- ABILITY -</span>
+      </h2>
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="circle">
+                <img src="./image/paint-brush-solid.svg">
+              </div>
+              <h5 class="card-title">視覺設計</h5>
+              <p class="card-text">
+                熟練Photoshop、Illustrator、Figma等設計軟體，以及Clip Studio Paint等電腦繪圖軟體
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="circle">
+                <img src="./image/laptop-code-solid.svg">
+              </div>
+              <h5 class="card-title">前端開發</h5>
+              <p class="card-text">
+                使用 HTML、CSS、JavaScript、Vue、Sass、Bootstrap、jQuery 等技術
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="circle">
+                <img src="./image/code-solid.svg">
+              </div>
+              <h5 class="card-title">後端程式</h5>
+              <p class="card-text">
+                擁有 Node.js、mongoDB 後端資料庫開發的經驗
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品集 -->
+  <section id="portfolio">
+    <div class="container part">
+      <h2 class="text-center title">
+        <span>- PORTFOLIO -</span>
+      </h2>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <a href="https://blackcat0708.github.io/DreamDepartmentStore-front/#/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/dream_department_store.jpg">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">夢百貨 - 插畫委託平台</h5>
+                <p class="card-text"></p>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">Sass</div>
+                  <div class="tag">JavaScript</div>
+                  <div class="tag">Buefy</div>
+                  <div class="tag">Node.js</div>
+                  <div class="tag">mongoDB</div>
+                  <div class="tag">Photoshop</div>
+                  <div class="tag">Illustrator</div>
+                  <div class="tag">Figma</div>
+                  <div class="tag">Clip Studio Paint</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>夢百貨 - 插畫委託平台</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-6 ps-lg-5 dream">
+          <h4>概念</h4>
+          <p>
+            「夢百貨」是一個專門展示夢向創作的插畫委託網站，為委託者和創作者打造一個可以安心委託的管道，在這裡委託者可以選擇自己喜歡的創作者進行委託，而創作者可以在這平台接受他人的委託，且兩種使用者都擁有可以展示作品的相簿以及可以編輯的個人頁面！
+          </p>
+          <hr>
+          <h4>前台功能</h4>
+          <ul>
+            <li>會員登入註冊</li>
+            <li>關鍵字搜尋</li>
+            <li>會員專屬個人頁面，可展示創作及介紹自己</li>
+            <li>委託項目頁面，可查看範例圖、項目規格以及委託注意事項</li>
+            <li>找到喜歡的委託項目，登入後可進行委託</li>
+            <li>如遇到各種問題，可以與管理員回報</li>
+          </ul>
+          <hr>
+          <h4>後台功能</h4>
+          <ul>
+            <li>每種使用者身分有不同的管理後台</li>
+            <li>會員可編輯個人資料、管理相簿圖片、查看委託交易紀錄</li>
+            <li>創作者可新增、編輯、刪除自己的委託項目內容</li>
+            <li>管理員可對違法使用規定的會員或委託項目進行刪除</li>
+            <li>管理員可查看問題回報，進行網站調整</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <a href="https://blackcat0708.github.io/Lotto/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/LOTTO.PNG">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">大樂透搖獎機</h5>
+                <p class="card-text">使用 jQuery 製作的大樂透搖獎機，每次從隨機移動的49顆號碼球中抽取6顆出來，並把所有抽取結果紀錄在旁邊，讓使用者不用在為選號碼煩惱！</p>
+                <div class="tags">
+                  <div class="tag">jQuery</div>
+                  <div class="tag">HTML</div>
+                  <div class="tag">CSS</div>
+                  <div class="tag">Photoshop</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>大樂透搖獎機</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <a href="https://blackcat0708.github.io/Little-Star-Piano/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/pianogame.PNG">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Litle Star Piano</h5>
+                <p class="card-text">使用 JavaScript 的 DOM 操作製作的鋼琴彈奏小遊戲，跟隨閃爍的提示按鍵即可彈奏出童謠「小星星」，也可挑戰隨機彈奏模式進行更高難度的演奏！</p>
+                <div class="tags">
+                  <div class="tag">JavaScript</div>
+                  <div class="tag">HTML</div>
+                  <div class="tag">CSS</div>
+                  <div class="tag">Photoshop</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>Litle Star Piano</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <a href="https://blackcat0708.github.io/Yangmingshan-frog/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/frog.PNG">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">尋找蛙蛙</h5>
+                <p class="card-text">以生活在陽明山國家公園的青蛙為主題，使用 jQuery
+                  製作的學習配對遊戲，透過鼠標移動到放大鏡上，可聆聽不同蛙類的聲音，且與下方卡片配對成功，還能學習到蛙蛙們的小知識！
+                </p>
+                <div class="tags">
+                  <div class="tag">jQuery</div>
+                  <div class="tag">HTML</div>
+                  <div class="tag">CSS</div>
+                  <div class="tag">Photoshop</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>尋找蛙蛙</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <a href="https://github.com/BlackCat0708/20211122_line_bot" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/taiwanpork_cover.jpg">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">好食在台灣豬 — line機器人</h5>
+                <p class="card-text">
+                  好食在台灣豬可以查詢商家是否擁有行政院農委會認證的臺灣豬證明標章，並且查詢商家的地址和營業時間，另外也可以找尋身邊或任意座標位置附近擁有此認證標章的商家
+                </p>
+                <div class="tags">
+                  <div class="tag">JavaScript</div>
+                  <div class="tag">Node.js</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>好食在台灣豬 — line機器人</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <a href="https://blackcat0708.github.io/POMODORO-NEW/#/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/POMODORO.PNG">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">POMODORO</h5>
+                <p class="card-text">
+                  使用 Vue 製作的番茄鐘，可新增、編輯及刪除代辦事項，按下開始鍵後會進行25分鐘的倒數，結束後會有5分鐘的休息時間，並幫使用者紀錄每日完成的事項！
+                </p>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">Sass</div>
+                  <div class="tag">Node.js</div>
+                  <div class="tag">Photoshop</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>POMODORO</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <a href="https://blackcat0708.github.io/exercise/" target="_blank">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="./image/BELLA.PNG">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">RWD網頁切版設計</h5>
+                <p class="card-text">
+                  臨摹的參考網站：BellaFleur<br>
+                  使用 css 依照參考的版面設計製作出相同樣貌的網頁，並使用swiper、lightbox、Gsap等套件製作互動的效果
+                </p>
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                  <div class="tag">CSS</div>
+                  <div class="tag">JavaScript</div>
+                  <div class="tag">GSAP</div>
+                </div>
+              </div>
+              <div class="overlay">
+                <img src="./image/link-solid.svg">
+                <h5>RWD網頁切版練習</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 聯絡 -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center title">
+        <span>- CONTACT -</span>
+      </h2>
+      <div class="contact-text">
+        <h3>THANK YOU!</h3>
+        <p>感謝您撥冗瀏覽此履歷，如有需要煩請使用 <a href="mailto:blackcat19980708@gmail.com">E-mail</a> 與我聯繫</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section id="footer" class="bg-warning">
+    <p class="text-center">Copyright © BlackCat 2022</p>
+  </section>
+
+  <!-- jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js'></script>
+  <!-- bootstrap -->
+  <script src="./js/bootstrap.bundle.js"></script>
+  <!-- GSAP -->
+  <script src="./js/gsap.js"></script>
+  <script src="./js/ScrollTrigger.js"></script>
+  <script src="./js/ScrollToPlugin.js"></script>
+  <script>
+    // GSAP --------------------------------------------------------------------------------------------------
+    // 註冊 Plugins
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+    // ScrollTrigger 滾動軸 -------------------------------------------------------------------------------------------------
+    // backtop 顯示隱藏
+    gsap.to('.go-to-top', {
+      scrollTrigger: {
+        trigger: '#about',
+        start: '40% bottom',
+        end: '100% bottom',
+        toggleActions: 'play none none reverse'
+      },
+      display: 'block',
+      opacity: 1,
+    })
+  </script>
+</body>
+
+</html>
